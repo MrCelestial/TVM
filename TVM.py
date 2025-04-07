@@ -6,11 +6,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from PIL import Image
 
-favicon = Image.open("C:/Users/KIIT/programming/.py/dollar-removebg-preview.ico")
+#favicon = Image.open("C:/Users/KIIT/programming/.py/dollar-removebg-preview.ico") #for custom icons
 
 st.set_page_config(
     page_title="Time Value of Money Calculator", 
-    page_icon=favicon,
+    #page_icon=favicon, #add this if you have an icon of your own locally
     layout="wide"
 )
 
