@@ -10,7 +10,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Time Value of Money Calculator", 
-    page_icon="🪙", #add this if you have an icon of your own locally
+    page_icon="💹", #add this if you have an icon of your own locally
     layout="wide"
 )
 
